@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import ThemeToggle from '@/components/ThemeToggle'asd
+import ThemeToggle from '@/components/ThemeToggle'
 
 const CATEGORIES = [
   { slug: 'housing', name: 'Жильё и аренда',   desc: 'Квартиры, комнаты, покупка недвижимости', icon: '🏠', count: 234 },
