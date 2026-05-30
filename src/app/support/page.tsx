@@ -16,7 +16,7 @@ const METHODS = [
     name: 'USDT (TRC20)',
     icon: '₮',
     desc: 'Tether — самый популярный стейблкоин',
-    address: 'ТВОЙ_USDT_АДРЕС_СЮДА',
+    address: 'TC46S6BxoqG9VN7QiYg2w2TEkU3PS6BzTo',
     color: 'bg-green-50 border-green-200',
   },
   {
@@ -24,7 +24,7 @@ const METHODS = [
     name: 'Bitcoin',
     icon: '₿',
     desc: 'Самая надёжная криптовалюта',
-    address: 'ТВОЙ_BTC_АДРЕС_СЮДА',
+    address: 'bc1qkuw8ghpjk7kdq2a0y3uuyd6ekmzucg5fs9xf3l',
     color: 'bg-orange-50 border-orange-200',
   },
   {
@@ -32,7 +32,7 @@ const METHODS = [
     name: 'TON',
     icon: '💎',
     desc: 'Telegram-монета, удобно через Telegram Wallet',
-    address: 'ТВОЙ_TON_АДРЕС_СЮДА',
+    address: 'UQBAmn2ahrpoiKkM68zANouLgKka29tQDeuSX1peCU-oJb6P',
     color: 'bg-blue-50 border-blue-200',
   },
   {
@@ -40,7 +40,7 @@ const METHODS = [
     name: 'Ethereum',
     icon: 'Ξ',
     desc: 'Вторая по капитализации криптовалюта',
-    address: 'ТВОЙ_ETH_АДРЕС_СЮДА',
+    address: '0xb1Ed3991CB0E65c0b93045DEAAbbF3AE16907Ef5',
     color: 'bg-purple-50 border-purple-200',
   },
 ]
