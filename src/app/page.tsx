@@ -5,7 +5,6 @@
 // ─────────────────────────────────────────────
 
 import Link from 'next/link'
-import { createClient } from '@/lib/supabase'
 
 // Категории форума с иконками и цветами
 const CATEGORIES = [
