@@ -30,7 +30,8 @@ export default function RegisterPage() {
       email,
       password,
       options: {
-        data: { username }
+        data: { username },
+        emailRedirectTo: `${window.location.origin}/auth/callback`
       }
     })
 
