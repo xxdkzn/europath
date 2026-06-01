@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import ThemeToggle from '@/components/ThemeToggle'
+import UserMenu from '@/components/UserMenu'
 
 const CATEGORIES = [
   { slug: 'housing', name: 'Жильё и аренда',   desc: 'Квартиры, комнаты, покупка недвижимости', icon: '🏠', count: 234 },
@@ -30,13 +31,9 @@ export default function HomePage() {
             <span className="text-xs bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-300 px-2 py-0.5 rounded-full font-normal">beta</span>
           </Link>
           <div className="flex items-center gap-2">
-            <Link href="/forum" className="text-sm px-3 py-1.5 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors" style={{ color: 'var(--text-muted)' }}>
-              Форум
-            </Link>
+            <Link href="/forum" className="text-sm px-3 py-1.5" style={{ color: 'var(--text-muted)' }}>Форум</Link>
             <ThemeToggle />
-            <Link href="/support" className="text-sm bg-blue-600 hover:bg-blue-700 text-white px-4 py-1.5 rounded-lg font-medium transition-colors">
-              Поддержать ❤
-            </Link>
+            <UserMenu />
           </div>
         </div>
       </nav>
