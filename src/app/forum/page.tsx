@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import ThemeToggle from '@/components/ThemeToggle'
 import UserMenu from '@/components/UserMenu'
+import SidebarAuth from '@/components/SidebarAuth'
 
 const CATEGORIES = [
   { slug: 'housing', name: 'Жильё и аренда',   desc: 'Квартиры, комнаты, покупка',    icon: '🏠', count: 234 },
@@ -124,18 +125,7 @@ export default function ForumPage() {
           <div className="space-y-4">
 
             {/* Вступить */}
-            <div className="rounded-2xl border p-5" style={{ backgroundColor: 'var(--bg-card)', borderColor: 'var(--border)' }}>
-              <h3 className="font-semibold mb-1" style={{ color: 'var(--text)' }}>Присоединяйся</h3>
-              <p className="text-sm mb-4" style={{ color: 'var(--text-muted)' }}>
-                Создай аккаунт чтобы задавать вопросы и делиться опытом
-              </p>
-              <Link href="/auth/register" className="block text-center text-sm font-medium bg-blue-600 hover:bg-blue-700 text-white py-2.5 rounded-xl transition-colors mb-2">
-                Создать аккаунт
-              </Link>
-              <Link href="/auth/login" className="block text-center text-sm py-2.5 rounded-xl border transition-colors" style={{ borderColor: 'var(--border)', color: 'var(--text-muted)' }}>
-                Войти
-              </Link>
-            </div>
+            <SidebarAuth />
 
             {/* Статистика */}
             <div className="rounded-2xl border p-5" style={{ backgroundColor: 'var(--bg-card)', borderColor: 'var(--border)' }}>
